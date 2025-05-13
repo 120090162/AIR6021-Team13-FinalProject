@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robot_arm_simulation
+    relative_path: urdf/robot_arm_simulation.urdf
+  srdf:
+    relative_path: config/robot_arm_simulation.srdf
+  package_settings:
+    author_name: zzc
+    author_email: email@email
+    generated_timestamp: 1741488518
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

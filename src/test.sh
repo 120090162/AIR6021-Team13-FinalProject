@@ -1,0 +1,13 @@
+sudo chmod +x ./register_service.sh
+sudo ./register_service.sh
+
+# 正常时有如下输出
+# Creating systemd service file at /etc/systemd/system/rm.service...
+# Reloading systemd daemon...
+# Enabling service rm.service...
+# Starting service rm.service...
+# Service rm.service has been registered and started.
+
+systemctl status rm
+systemctl stop rm
+systemctl disable rm
