@@ -58,3 +58,7 @@ Follow the following instructions:
     # Starting service rm.service...
     # Service rm.service has been registered and started.
     ```
+
+* Contributors
+
+@120090162, @CeliaShu1024, @webDrag0n
